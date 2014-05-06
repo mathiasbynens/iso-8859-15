@@ -2,7 +2,7 @@
 
 _iso-8859-15_ is a robust JavaScript implementation of [the iso-8859-15 character encoding as defined by the Encoding Standard](http://encoding.spec.whatwg.org/#iso-8859-15).
 
-This encoding is known under the following names: csisolatin9, iso-8859-15, iso8859-15, iso885915, iso_8859-15, l9, and l9.
+This encoding is known under the following names: csisolatin9, iso-8859-15, iso8859-15, iso885915, iso_8859-15, and l9.
 
 ## Installation
 
