@@ -24,7 +24,7 @@
 
 	// The `iso885915` object to test
 	var iso885915 = root.iso885915 || (root.iso885915 = (
-		iso885915 = load('../iso885915.js') || root.iso885915,
+		iso885915 = load('../iso-8859-15.js') || root.iso885915,
 		iso885915 = iso885915.iso885915 || iso885915
 	));
 
