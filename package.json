@@ -7,8 +7,11 @@
 	"keywords": [
 		"codec",
 		"decoder",
+		"decoding",
 		"encoder",
+		"encoding",
 		"legacy",
+		"legacy-encoding",
 		"csisolatin9",
 		"iso-8859-15",
 		"iso8859-15",
