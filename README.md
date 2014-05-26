@@ -1,4 +1,4 @@
-# iso-8859-15 [![Build status](https://travis-ci.org/mathiasbynens/iso-8859-15.svg?branch=master)](https://travis-ci.org/mathiasbynens/iso-8859-15) [![Dependency status](https://gemnasium.com/mathiasbynens/iso-8859-15.svg)](https://gemnasium.com/mathiasbynens/iso-8859-15)
+# iso-8859-15 [![Build status](https://travis-ci.org/mathiasbynens/iso-8859-15.svg?branch=master)](https://travis-ci.org/mathiasbynens/iso-8859-15) [![Code coverage status](http://img.shields.io/coveralls/mathiasbynens/iso-8859-15/master.svg)](https://coveralls.io/r/mathiasbynens/iso-8859-15) [![Dependency status](https://gemnasium.com/mathiasbynens/iso-8859-15.svg)](https://gemnasium.com/mathiasbynens/iso-8859-15)
 
 _iso-8859-15_ is a robust JavaScript implementation of [the iso-8859-15 character encoding as defined by the Encoding Standard](http://encoding.spec.whatwg.org/#iso-8859-15).
 
