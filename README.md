@@ -1,4 +1,4 @@
-# iso-8859-15 [![Build status](https://travis-ci.org/mathiasbynens/iso-8859-15.svg?branch=master)](https://travis-ci.org/mathiasbynens/iso-8859-15) [![Code coverage status](http://img.shields.io/coveralls/mathiasbynens/iso-8859-15/master.svg)](https://coveralls.io/r/mathiasbynens/iso-8859-15) [![Dependency status](https://gemnasium.com/mathiasbynens/iso-8859-15.svg)](https://gemnasium.com/mathiasbynens/iso-8859-15)
+# iso-8859-15 [![Build status](https://travis-ci.org/mathiasbynens/iso-8859-15.svg?branch=master)](https://travis-ci.org/mathiasbynens/iso-8859-15) [![Code coverage status](https://coveralls.io/repos/mathiasbynens/iso-8859-15/badge.svg)](https://coveralls.io/r/mathiasbynens/iso-8859-15) [![Dependency status](https://gemnasium.com/mathiasbynens/iso-8859-15.svg)](https://gemnasium.com/mathiasbynens/iso-8859-15)
 
 _iso-8859-15_ is a robust JavaScript implementation of [the iso-8859-15 character encoding as defined by the Encoding Standard](http://encoding.spec.whatwg.org/#iso-8859-15).
 
@@ -6,7 +6,7 @@ This encoding is known under the following names: csisolatin9, iso-8859-15, iso8
 
 ## Installation
 
-Via [npm](http://npmjs.org/):
+Via [npm](https://www.npmjs.com/):
 
 ```bash
 npm install iso-8859-15
@@ -30,7 +30,7 @@ In a browser:
 <script src="iso-8859-15.js"></script>
 ```
 
-In [Narwhal](http://narwhaljs.org/), [Node.js](http://nodejs.org/), and [RingoJS](http://ringojs.org/):
+In [Node.js](https://nodejs.org/), [io.js](https://iojs.org/), [Narwhal](http://narwhaljs.org/), and [RingoJS](http://ringojs.org/):
 
 ```js
 var iso885915 = require('iso-8859-15');
@@ -106,7 +106,7 @@ var text = iso885915.decode(encodedData, {
 
 ## Support
 
-_iso-8859-15_ is designed to work in at least Node.js v0.10.0, Narwhal 0.3.2, RingoJS 0.8-0.9, PhantomJS 1.9.0, Rhino 1.7RC4, as well as old and modern versions of Chrome, Firefox, Safari, Opera, and Internet Explorer.
+_iso-8859-15_ is designed to work in at least Node.js v0.10.0, io.js v1.0.0, Narwhal 0.3.2, RingoJS 0.8-0.11, PhantomJS 1.9.0, Rhino 1.7RC4, as well as old and modern versions of Chrome, Firefox, Safari, Opera, and Internet Explorer.
 
 ## Unit tests & code coverage
 
@@ -118,7 +118,7 @@ To generate the code coverage report, use `grunt cover`.
 
 ## Notes
 
-[Similar modules for other single-byte legacy encodings are available.](https://www.npmjs.org/browse/keyword/legacy-encoding)
+[Similar modules for other single-byte legacy encodings are available.](https://www.npmjs.com/browse/keyword/legacy-encoding)
 
 ## Author
 
