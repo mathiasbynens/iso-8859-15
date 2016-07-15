@@ -34,8 +34,9 @@
 		"iso-8859-15.js"
 	],
 	"scripts": {
-		"test": "node tests/tests.js",
-		"build": "node scripts/transform-data.js"
+		"download": "curl https://encoding.spec.whatwg.org/index-iso-8859-15.txt > data/index.txt",
+		"build": "node scripts/transform-data.js",
+		"test": "node tests/tests.js"
 	},
 	"devDependencies": {
 		"coveralls": "^2.11.6",
