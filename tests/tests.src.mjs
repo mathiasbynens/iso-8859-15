@@ -1,6 +1,6 @@
-const assert = require('assert');
+import assert from 'node:assert';
 
-const iso885915 = require('../iso-8859-15.js');
+import * as iso885915 from '../iso-8859-15.mjs';
 
 console.log('Testing `iso885915.encode`…');
 assert.strictEqual(
@@ -109,3 +109,7 @@ assert.throws(
 	Error,
 	'Mode names are case-insensitive'
 );
+
+console.log('Testing `iso885915.labels`…');
+assert.ok(Array.isArray(iso885915.labels));
+assert.ok(iso885915.labels.length > 0);
