@@ -1,21 +1,5 @@
-/*! https://mths.be/iso-8859-15 v1.0.0 by @mathias | MIT license */
-;(function(root) {
-
-	// Detect free variables `exports`.
-	var freeExports = typeof exports == 'object' && exports;
-
-	// Detect free variable `module`.
-	var freeModule = typeof module == 'object' && module &&
-		module.exports == freeExports && module;
-
-	// Detect free variable `global`, from Node.js/io.js or Browserified code,
-	// and use it as `root`.
-	var freeGlobal = typeof global == 'object' && global;
-	if (freeGlobal.global === freeGlobal || freeGlobal.window === freeGlobal) {
-		root = freeGlobal;
-	}
-
-	/*--------------------------------------------------------------------------*/
+/*! https://mths.be/iso-8859-15 v1.0.1 by @mathias | MIT license */
+;(function() {
 
 	var object = {};
 	var hasOwnProperty = object.hasOwnProperty;
@@ -33,7 +17,7 @@
 			return '&#' + codePoint + ';';
 		}
 		// Else, `mode == 'fatal'`.
-		throw Error();
+		throw new Error();
 	};
 
 	// https://encoding.spec.whatwg.org/#single-byte-decoder
@@ -113,9 +97,9 @@
 	};
 
 	var iso885915 = {
-		'encode': encode,
-		'decode': decode,
-		'labels': [
+		encode: encode,
+		decode: decode,
+		labels: [
 			'csisolatin9',
 			'iso-8859-15',
 			'iso8859-15',
@@ -123,29 +107,9 @@
 			'iso_8859-15',
 			'l9'
 		],
-		'version': '1.0.0'
+		version: '1.0.1',
 	};
 
-	// Some AMD build optimizers, like r.js, check for specific condition patterns
-	// like the following:
-	if (
-		typeof define == 'function' &&
-		typeof define.amd == 'object' &&
-		define.amd
-	) {
-		define(function() {
-			return iso885915;
-		});
-	}	else if (freeExports && !freeExports.nodeType) {
-		if (freeModule) { // in Node.js, io.js or RingoJS v0.8.0+
-			freeModule.exports = iso885915;
-		} else { // in Narwhal or RingoJS v0.7.0-
-			for (var key in iso885915) {
-				iso885915.hasOwnProperty(key) && (freeExports[key] = iso885915[key]);
-			}
-		}
-	} else { // in Rhino or a web browser
-		root.iso885915 = iso885915;
-	}
+	module.exports = iso885915;
 
-}(this));
+}());
